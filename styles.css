@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    font-family: 'Baloo 2', 'Arial', sans-serif;
     background-color: #E3F2FD; /* Light Blue */
     margin: 0;
     padding: 0;
@@ -8,13 +8,13 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #0077cc; /* Deep Blue */
+    background-color: white; /* Deep Blue */
     padding: 10px 0;
     text-align: center;
     border-radius: 10px;
 }
 nav a {
-    color: white;
+    color: blue;
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
@@ -34,16 +34,15 @@ header {
 /* Header */
 header {
     text-align: center;
-    padding: 20px;
-}
+    padding: 20px;}
 header h1 {
     color: white;            /* Adjust to contrast with background */
-    font-size: 3rem;
-    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    font-size: 9rem;
+    font-family: 'Baloo 2', 'Arial', sans-serif;
     font-weight: bold;       /* Makes the text bold */
     text-align: center;      /* Centers the title */
     margin: 0;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 header p {
     color: #28a745;
