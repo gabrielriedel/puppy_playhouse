@@ -14,14 +14,14 @@ nav {
     border-radius: 10px;
 }
 nav a {
-    color: blue;
+    color: rgb(244, 108, 169);
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 24px;
 }
 nav a:hover {
-    background-color: #28a745; /* Green */
+    background-color: pink; /* Green */
     border-radius: 10px;
 }
 
