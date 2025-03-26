@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background-color: #E3F2FD; /* Light Blue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0077cc; /* Deep Blue */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: #28a745; /* Green */
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: #0077cc;
+    font-size: 36px;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+}
+header p {
+    color: #28a745;
+    font-size: 20px;
+    font-family: 'Lucida Handwriting', 'Cursive';
+}
+
+/* Section Styling */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+button:first-of-type {
+    background-color: #0077cc;
+    color: white;
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+}
+button:first-of-type:hover {
+    background-color: #005fa3;
+}
+
+button:last-of-type {
+    background-color: #28a745;
+    color: white;
+    font-family: 'Lucida Handwriting', 'Cursive';
+}
+button:last-of-type:hover {
+    background-color: #1e7d32;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 10px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
