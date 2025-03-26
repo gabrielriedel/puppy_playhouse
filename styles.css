@@ -25,15 +25,25 @@ nav a:hover {
     border-radius: 10px;
 }
 
+
+/* Optional: style the header background so the title pops */
+header {
+    background-color: #4A90E2;  /* A nice bold blue, adjust as needed */
+}
+
 /* Header */
 header {
     text-align: center;
     padding: 20px;
 }
 header h1 {
-    color: #0077cc;
-    font-size: 36px;
+    color: white;            /* Adjust to contrast with background */
+    font-size: 3rem;
     font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    font-weight: bold;       /* Makes the text bold */
+    text-align: center;      /* Centers the title */
+    margin: 0;
+    padding: 20px 0;
 }
 header p {
     color: #28a745;
